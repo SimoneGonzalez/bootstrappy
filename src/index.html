@@ -1,14 +1,71 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap Fun!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/main.css">
   </head>
- 
   <body>
-    <h1>Hello World</h1>
-  </body>	
+    <div class="container">
+      <div class="row">
+        <h1>Pet Store</h1>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Photo</th>
+              <th>Name</th>
+              <th>Breed/Species</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><img src="http://i.imgur.com/Lge0IBC.jpg" alt="Giggles" class="img-rounded"/></td>
+              <td>Giggles</td>
+              <td>Cat</td>
+              <td><input type="button" name="" id="" value="Get" /></td>
+            </tr>
+            <tr>
+              <td><img src="http://i.imgur.com/ny9Xafl.jpg" alt="Wiggles" class="img-rounded" /></td>
+              <td>Wiggles</td>
+              <td>Lizard</td>
+              <td><input type="button" name="" id="" value="Get" /></td>
+            </tr>
+            <tr>
+              <td><img src="http://i.imgur.com/jgPk9.jpg" alt="Shiggles" class="img-rounded" /></td>
+              <td>Shiggles</td>
+              <td>Bird</td>
+              <td><input type="button" name="" id="" value="Get" /></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="row">
+    <form class="form-horizontal" action="" method="post">
+    <fieldset>
+    <legend>Add Pet</legend>
+      <div class="form-group">
+        <label for="photo">Photo</label>
+        <input type="image" name="photo" id="photo" value="Upload Photo"/>
+      </div>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Name"/>
+      </div>
+      <div class="form-group">
+        <label for="breed">Breed/Species</label>
+        <input type="text" name="breed" id="breed" placeholder="Breed/Species" />
+      </div>
+        <input type="submit" name="Save" id="" value="Save" />
+      </fieldset>
+      </form>
+       </div>
+</div>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  </body>
 </html>
